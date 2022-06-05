@@ -13,6 +13,8 @@
 </template>
 
 <script>
+// curl localhost:3000/boards -H 'Authorization: Bearer token'
+// curl localhost:3000/boards/1 -H 'Authorization: Bearer token'
 export default {
   data() {
     return {
